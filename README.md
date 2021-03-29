@@ -29,7 +29,7 @@
 
 ### Step.1 git clone repository
 ```
-$ git clone https://github.com/ingyeomental/Django-React-TodoApp.git
+$ git clone https://github.com/ingyeomental/web_emr_data.git
 ```
 
 ### Step2. Create or Start Django + Web + Postgre Container
