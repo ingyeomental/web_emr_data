@@ -65,4 +65,6 @@ $ ./manage.py runserver --settings=config.settings.prod
     - 환자에 대한 통계는 person/view.py에서 개발
     - 방문에 대한 통계는 새로운 django app을 생성해서 개발
 - [ ] 각 테이블에 사용된 concept_id 정보 리턴하는 API 개발
+    - "from django.db.models import Q"를 통해서 키워드 검색하는 기능을 구현
 - [ ] 각 테이블의 row를 조회하는 API를 구현
+    - "from django.db.models import Q"를 통해서 키워드 검색하는 기능을 구현
