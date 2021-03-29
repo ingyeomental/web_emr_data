@@ -51,4 +51,18 @@ $ ./manage.py runserver --settings=config.settings.prod
 ## Todo List
 > 우선순위를 고려
 
-- [x] 
+- [x] PostgreSQL 원격서버 접속 및 데이터 확인
+- [x] Docker-Compose로 환경구성
+- [x] Django Setting(dev용 DB / prod용 DB 구분)
+- [x] 전체 환자 수 리턴하는 API 구상
+    ```
+    {
+        'count': 00
+    }
+    ```
+- [ ] API 구현을 위한 에러 해결
+- [ ] 다른 테이블 값에 대한 통계도 제공하는 API 개발
+    - 환자에 대한 통계는 person/view.py에서 개발
+    - 방문에 대한 통계는 새로운 django app을 생성해서 개발
+- [ ] 각 테이블에 사용된 concept_id 정보 리턴하는 API 개발
+- [ ] 각 테이블의 row를 조회하는 API를 구현
