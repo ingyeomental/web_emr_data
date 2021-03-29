@@ -1,5 +1,5 @@
 # web_emr_data
-> 헬스케어 데이터를 활용한 django 실습
+> 헬스케어 데이터를 활용한 Django API 개발(미완성)
 
 ## directory tree
 ```
